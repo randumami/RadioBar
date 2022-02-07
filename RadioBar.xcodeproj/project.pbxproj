@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45065B502115A18E006587E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45065B4F2115A18E006587E4 /* README.md */; };
+		4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DA279C3FD5006DBD0B /* Constants.swift */; };
+		4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DF279C9D11006DBD0B /* RadioData.swift */; };
+		4520D1E8279CB955006DBD0B /* DR.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4520D1E7279CB955006DBD0B /* DR.plist */; };
+		454C92D527A0598300F7AB81 /* LaunchAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C92D427A0598300F7AB81 /* LaunchAppDelegate.swift */; };
+		454C92D927A0598400F7AB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454C92D827A0598400F7AB81 /* Assets.xcassets */; };
+		454C92DC27A0598400F7AB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454C92DA27A0598400F7AB81 /* Main.storyboard */; };
+		454EE7BD201F8547002E6756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE7BC201F8547002E6756 /* AppDelegate.swift */; };
+		454EE7C2201F8547002E6756 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454EE7C0201F8547002E6756 /* MainMenu.xib */; };
+		4571651E279C3AEF00123DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4571651D279C3AEF00123DEC /* Assets.xcassets */; };
+		457CC17B2776155600CA0532 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CC17A2776155600CA0532 /* Radio.swift */; };
+		457CC17F2776508500CA0532 /* RadioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CC17E2776508500CA0532 /* RadioManager.swift */; };
+		45991C31202ED0D000E84C37 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45991C30202ED0D000E84C37 /* StatusMenuController.swift */; };
+		45B6058027A0A22300E7C891 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6057F27A0A22300E7C891 /* ServiceManagement.framework */; platformFilter = maccatalyst; };
+		45CAC20C27A08F8B0080F1C4 /* RadioBarLaunch.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454C92D227A0598300F7AB81 /* RadioBarLaunch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */; };
+		45F3EC6E202F2AE70050E290 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */; };
+		45FCFC8227A4745200C2AD1E /* BBC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45FCFC8127A4745200C2AD1E /* BBC.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45CAC20B27A08F410080F1C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				45CAC20C27A08F8B0080F1C4 /* RadioBarLaunch.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45065B4F2115A18E006587E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4520D1DA279C3FD5006DBD0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4520D1DF279C9D11006DBD0B /* RadioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioData.swift; sourceTree = "<group>"; };
+		4520D1E7279CB955006DBD0B /* DR.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DR.plist; sourceTree = "<group>"; };
+		454C92D227A0598300F7AB81 /* RadioBarLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioBarLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454C92D427A0598300F7AB81 /* LaunchAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAppDelegate.swift; sourceTree = "<group>"; };
+		454C92D827A0598400F7AB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454C92DB27A0598400F7AB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454C92DD27A0598400F7AB81 /* RadioBarLaunch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioBarLaunch.entitlements; sourceTree = "<group>"; };
+		454C92E127A05DA400F7AB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		454EE7B9201F8547002E6756 /* RadioBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454EE7BC201F8547002E6756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		454EE7C1201F8547002E6756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		454EE7C3201F8547002E6756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454EE7C4201F8547002E6756 /* RadioBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioBar.entitlements; sourceTree = "<group>"; };
+		4571651D279C3AEF00123DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RadioBar/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		457CC17A2776155600CA0532 /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		457CC17E2776508500CA0532 /* RadioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioManager.swift; sourceTree = "<group>"; };
+		45991C30202ED0D000E84C37 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		45B6057F27A0A22300E7C891 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		45FCFC8127A4745200C2AD1E /* BBC.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = BBC.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454C92CF27A0598300F7AB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454EE7B6201F8547002E6756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B6058027A0A22300E7C891 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4520D1DE279C9CAA006DBD0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				457CC17E2776508500CA0532 /* RadioManager.swift */,
+				4520D1DF279C9D11006DBD0B /* RadioData.swift */,
+				457CC17A2776155600CA0532 /* Radio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4520D1E3279C9F0D006DBD0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45991C30202ED0D000E84C37 /* StatusMenuController.swift */,
+				45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4520D1E4279C9F3E006DBD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				454EE7C0201F8547002E6756 /* MainMenu.xib */,
+				45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		454C92D327A0598300F7AB81 /* RadioBarLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				454C92E127A05DA400F7AB81 /* Info.plist */,
+				454C92D427A0598300F7AB81 /* LaunchAppDelegate.swift */,
+				454C92D827A0598400F7AB81 /* Assets.xcassets */,
+				454C92DA27A0598400F7AB81 /* Main.storyboard */,
+				454C92DD27A0598400F7AB81 /* RadioBarLaunch.entitlements */,
+			);
+			path = RadioBarLaunch;
+			sourceTree = "<group>";
+		};
+		454EE7B0201F8547002E6756 = {
+			isa = PBXGroup;
+			children = (
+				45065B4F2115A18E006587E4 /* README.md */,
+				454EE7BB201F8547002E6756 /* RadioBar */,
+				454C92D327A0598300F7AB81 /* RadioBarLaunch */,
+				454EE7BA201F8547002E6756 /* Products */,
+				45B6057E27A0A22300E7C891 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		454EE7BA201F8547002E6756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454EE7B9201F8547002E6756 /* RadioBar.app */,
+				454C92D227A0598300F7AB81 /* RadioBarLaunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454EE7BB201F8547002E6756 /* RadioBar */ = {
+			isa = PBXGroup;
+			children = (
+				4520D1DE279C9CAA006DBD0B /* Model */,
+				4520D1E3279C9F0D006DBD0B /* Controller */,
+				4520D1E4279C9F3E006DBD0B /* View */,
+				45A32D0926FA24F60046167D /* Supporting files */,
+				454EE7C4201F8547002E6756 /* RadioBar.entitlements */,
+				4520D1E7279CB955006DBD0B /* DR.plist */,
+				45FCFC8127A4745200C2AD1E /* BBC.plist */,
+				454EE7C3201F8547002E6756 /* Info.plist */,
+			);
+			path = RadioBar;
+			sourceTree = "<group>";
+		};
+		45A32D0926FA24F60046167D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4520D1DA279C3FD5006DBD0B /* Constants.swift */,
+				4571651D279C3AEF00123DEC /* Assets.xcassets */,
+				454EE7BC201F8547002E6756 /* AppDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		45B6057E27A0A22300E7C891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B6057F27A0A22300E7C891 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454C92D127A0598300F7AB81 /* RadioBarLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454C92DE27A0598400F7AB81 /* Build configuration list for PBXNativeTarget "RadioBarLaunch" */;
+			buildPhases = (
+				454C92CE27A0598300F7AB81 /* Sources */,
+				454C92CF27A0598300F7AB81 /* Frameworks */,
+				454C92D027A0598300F7AB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioBarLaunch;
+			productName = RadioBarLaunch;
+			productReference = 454C92D227A0598300F7AB81 /* RadioBarLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		454EE7B8201F8547002E6756 /* RadioBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454EE7C7201F8547002E6756 /* Build configuration list for PBXNativeTarget "RadioBar" */;
+			buildPhases = (
+				454EE7B5201F8547002E6756 /* Sources */,
+				454EE7B6201F8547002E6756 /* Frameworks */,
+				454EE7B7201F8547002E6756 /* Resources */,
+				45CAC20B27A08F410080F1C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioBar;
+			productName = RadioBar;
+			productReference = 454EE7B9201F8547002E6756 /* RadioBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454EE7B1201F8547002E6756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Søren Randum";
+				TargetAttributes = {
+					454C92D127A0598300F7AB81 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					454EE7B8201F8547002E6756 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1250;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 454EE7B4201F8547002E6756 /* Build configuration list for PBXProject "RadioBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454EE7B0201F8547002E6756;
+			productRefGroup = 454EE7BA201F8547002E6756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454EE7B8201F8547002E6756 /* RadioBar */,
+				454C92D127A0598300F7AB81 /* RadioBarLaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		454C92D027A0598300F7AB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454C92D927A0598400F7AB81 /* Assets.xcassets in Resources */,
+				454C92DC27A0598400F7AB81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454EE7B7201F8547002E6756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4520D1E8279CB955006DBD0B /* DR.plist in Resources */,
+				45065B502115A18E006587E4 /* README.md in Resources */,
+				45FCFC8227A4745200C2AD1E /* BBC.plist in Resources */,
+				45F3EC6E202F2AE70050E290 /* PreferencesWindow.xib in Resources */,
+				454EE7C2201F8547002E6756 /* MainMenu.xib in Resources */,
+				4571651E279C3AEF00123DEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454C92CE27A0598300F7AB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454C92D527A0598300F7AB81 /* LaunchAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454EE7B5201F8547002E6756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457CC17F2776508500CA0532 /* RadioManager.swift in Sources */,
+				45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */,
+				4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */,
+				45991C31202ED0D000E84C37 /* StatusMenuController.swift in Sources */,
+				4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */,
+				454EE7BD201F8547002E6756 /* AppDelegate.swift in Sources */,
+				457CC17B2776155600CA0532 /* Radio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		454C92DA27A0598400F7AB81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454C92DB27A0598400F7AB81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		454EE7C0201F8547002E6756 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454EE7C1201F8547002E6756 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454C92DF27A0598400F7AB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = RadioBarLaunch/RadioBarLaunch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = GSN2VK6597;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioBarLaunch/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Søren Randum. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBarLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		454C92E027A0598400F7AB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = RadioBarLaunch/RadioBarLaunchRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = GSN2VK6597;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioBarLaunch/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Søren Randum. All rights reserved.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBarLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		454EE7C5201F8547002E6756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		454EE7C6201F8547002E6756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		454EE7C8201F8547002E6756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RadioBar/RadioBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = GSN2VK6597;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RadioBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		454EE7C9201F8547002E6756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RadioBar/RadioBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = GSN2VK6597;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RadioBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454C92DE27A0598400F7AB81 /* Build configuration list for PBXNativeTarget "RadioBarLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454C92DF27A0598400F7AB81 /* Debug */,
+				454C92E027A0598400F7AB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454EE7B4201F8547002E6756 /* Build configuration list for PBXProject "RadioBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454EE7C5201F8547002E6756 /* Debug */,
+				454EE7C6201F8547002E6756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454EE7C7201F8547002E6756 /* Build configuration list for PBXNativeTarget "RadioBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454EE7C8201F8547002E6756 /* Debug */,
+				454EE7C9201F8547002E6756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454EE7B1201F8547002E6756 /* Project object */;
+}

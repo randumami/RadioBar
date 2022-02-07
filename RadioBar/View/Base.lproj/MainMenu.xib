@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="7mP-Ah-fN5" id="Iur-wc-i0S"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="RadioBar" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="7mP-Ah-fN5" customClass="StatusMenuController" customModule="RadioBar" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="7QC-iD-Mqa" id="kSp-m5-LkE"/>
+            </connections>
+        </customObject>
+        <menu id="7QC-iD-Mqa">
+            <items>
+                <menuItem title="Preferences" hidden="YES" enabled="NO" id="OOa-XL-NOE">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="PrefsClicked:" target="7mP-Ah-fN5" id="WUF-T3-aoI"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" hidden="YES" enabled="NO" id="bGm-Ls-ez7">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="QuitClicked:" target="7mP-Ah-fN5" id="pza-EM-jBG"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="118" y="244.5"/>
+        </menu>
+    </objects>
+</document>

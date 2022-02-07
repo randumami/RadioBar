@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>P1</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p1/masterab.m3u8</string>
+	<key>P2</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p2/masterab.m3u8</string>
+	<key>P3</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p3/masterab.m3u8</string>
+	<key>P4 Kbh</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p4kobenhavn/masterab.m3u8</string>
+	<key>P5 Kbh</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p5kobenhavn/masterab.m3u8</string>
+	<key>P6 Beat</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p6beat/masterab.m3u8</string>
+	<key>P8 Jazz</key>
+	<string>https://drliveradio.akamaized.net/hls/live/2022411/p8jazz/masterab.m3u8</string>
+</dict>
+</plist>
