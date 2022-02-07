@@ -214,7 +214,7 @@ DQ
                         </popUpButtonCell>
                     </popUpButton>
                     <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="10" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zap-0I-ccZ">
-                        <rect key="frame" x="87" y="22" width="309" height="20"/>
+                        <rect key="frame" x="87" y="22" width="252" height="20"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V66-AI-G6t">
                                 <rect key="frame" x="-2" y="4" width="208" height="16"/>
@@ -234,24 +234,12 @@ DQ
                                     <action selector="reloadDefaultRadioChannels:" target="-2" id="mi5-mR-BuS"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eme-CH-aq9">
-                                <rect key="frame" x="255" y="-7" width="61" height="32"/>
-                                <buttonCell key="cell" type="push" title="BBC" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uCU-Cj-Zzk">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="reloadDefaultRadioChannels:" target="-2" id="xzl-az-tK2"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <visibilityPriorities>
                             <integer value="1000"/>
                             <integer value="1000"/>
-                            <integer value="1000"/>
                         </visibilityPriorities>
                         <customSpacing>
-                            <real value="3.4028234663852886e+38"/>
                             <real value="3.4028234663852886e+38"/>
                             <real value="3.4028234663852886e+38"/>
                         </customSpacing>
@@ -289,6 +277,17 @@ DQ
                             <real value="3.4028234663852886e+38"/>
                         </customSpacing>
                     </stackView>
+                    <button hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eme-CH-aq9">
+                        <rect key="frame" x="362" y="13" width="61" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="BBC" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uCU-Cj-Zzk">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="reloadDefaultRadioChannels:" target="-2" id="xzl-az-tK2"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="19w-Hm-VSq" firstAttribute="top" secondItem="kRX-eo-Oau" secondAttribute="bottom" constant="33" id="BJ6-R7-QBC"/>
