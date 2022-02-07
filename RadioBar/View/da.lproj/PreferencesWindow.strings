@@ -1,0 +1,51 @@
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "6Am-uq-bEi"; */
+"6Am-uq-bEi.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "8JH-vG-6P7"; */
+"8JH-vG-6P7.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Play this channel when starting"; ObjectID = "9dZ-EB-l7H"; */
+"9dZ-EB-l7H.title" = "Afspil denne kanal ved opstart";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Indstillinger";
+
+/* Class = "NSTextFieldCell"; title = "Radio"; ObjectID = "HKe-4A-jZF"; */
+"HKe-4A-jZF.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Mfx-Pa-INy"; */
+"Mfx-Pa-INy.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Oyo-wA-e1d"; */
+"Oyo-wA-e1d.title" = "Table View Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "e2t-mq-EgJ"; */
+"e2t-mq-EgJ.headerCell.title" = "Navn";
+
+/* Class = "NSTextFieldCell"; title = "Reload radio channels and restart"; ObjectID = "hnI-dZ-tKu"; */
+"hnI-dZ-tKu.title" = "Genindlæs rediokanaler og genstart";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "hpa-BW-aVl"; */
+"hpa-BW-aVl.title" = "Gem";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "iNz-JX-rd8"; */
+"iNz-JX-rd8.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "DR"; ObjectID = "iet-G8-j8R"; */
+"iet-G8-j8R.title" = "DR";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address"; ObjectID = "kao-Po-12o"; */
+"kao-Po-12o.headerCell.title" = "Sti";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "rSb-5I-YO3"; */
+"rSb-5I-YO3.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "BBC"; ObjectID = "uCU-Cj-Zzk"; */
+"uCU-Cj-Zzk.title" = "BBC";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "uUK-qc-j1M"; */
+"uUK-qc-j1M.title" = "Item 2";
+
+/* Class = "NSButtonCell"; title = "Load at startup"; ObjectID = "xwu-hX-BL3"; */
+"xwu-hX-BL3.title" = "Start RadioBar ved login";

@@ -16,6 +16,8 @@
 		454C92DC27A0598400F7AB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454C92DA27A0598400F7AB81 /* Main.storyboard */; };
 		454EE7BD201F8547002E6756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EE7BC201F8547002E6756 /* AppDelegate.swift */; };
 		454EE7C2201F8547002E6756 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454EE7C0201F8547002E6756 /* MainMenu.xib */; };
+		455E2FA927B19E55005466A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 455E2FAB27B19E55005466A0 /* Localizable.strings */; };
+		455E2FAF27B1A94B005466A0 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455E2FB127B1A94B005466A0 /* PreferencesWindow.xib */; };
 		4571651E279C3AEF00123DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4571651D279C3AEF00123DEC /* Assets.xcassets */; };
 		457CC17B2776155600CA0532 /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CC17A2776155600CA0532 /* Radio.swift */; };
 		457CC17F2776508500CA0532 /* RadioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CC17E2776508500CA0532 /* RadioManager.swift */; };
@@ -23,7 +25,6 @@
 		45B6058027A0A22300E7C891 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6057F27A0A22300E7C891 /* ServiceManagement.framework */; platformFilter = maccatalyst; };
 		45CAC20C27A08F8B0080F1C4 /* RadioBarLaunch.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454C92D227A0598300F7AB81 /* RadioBarLaunch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */; };
-		45F3EC6E202F2AE70050E290 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */; };
 		45FCFC8227A4745200C2AD1E /* BBC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45FCFC8127A4745200C2AD1E /* BBC.plist */; };
 /* End PBXBuildFile section */
 
@@ -56,13 +57,18 @@
 		454EE7C1201F8547002E6756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		454EE7C3201F8547002E6756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454EE7C4201F8547002E6756 /* RadioBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RadioBar.entitlements; sourceTree = "<group>"; };
+		455E2FAA27B19E55005466A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		455E2FAC27B19F1C005466A0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		455E2FAD27B19F1C005466A0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
+		455E2FAE27B19F1C005466A0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		455E2FB027B1A94B005466A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreferencesWindow.xib; sourceTree = "<group>"; };
+		455E2FB327B1A951005466A0 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/PreferencesWindow.strings; sourceTree = "<group>"; };
 		4571651D279C3AEF00123DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RadioBar/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		457CC17A2776155600CA0532 /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
 		457CC17E2776508500CA0532 /* RadioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioManager.swift; sourceTree = "<group>"; };
 		45991C30202ED0D000E84C37 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		45B6057F27A0A22300E7C891 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
-		45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		45FCFC8127A4745200C2AD1E /* BBC.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = BBC.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				454EE7C0201F8547002E6756 /* MainMenu.xib */,
-				45F3EC6D202F2AE70050E290 /* PreferencesWindow.xib */,
+				455E2FB127B1A94B005466A0 /* PreferencesWindow.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 				4520D1E7279CB955006DBD0B /* DR.plist */,
 				45FCFC8127A4745200C2AD1E /* BBC.plist */,
 				454EE7C3201F8547002E6756 /* Info.plist */,
+				455E2FAB27B19E55005466A0 /* Localizable.strings */,
 			);
 			path = RadioBar;
 			sourceTree = "<group>";
@@ -247,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				da,
 			);
 			mainGroup = 454EE7B0201F8547002E6756;
 			productRefGroup = 454EE7BA201F8547002E6756 /* Products */;
@@ -276,7 +284,8 @@
 				4520D1E8279CB955006DBD0B /* DR.plist in Resources */,
 				45065B502115A18E006587E4 /* README.md in Resources */,
 				45FCFC8227A4745200C2AD1E /* BBC.plist in Resources */,
-				45F3EC6E202F2AE70050E290 /* PreferencesWindow.xib in Resources */,
+				455E2FA927B19E55005466A0 /* Localizable.strings in Resources */,
+				455E2FAF27B1A94B005466A0 /* PreferencesWindow.xib in Resources */,
 				454EE7C2201F8547002E6756 /* MainMenu.xib in Resources */,
 				4571651E279C3AEF00123DEC /* Assets.xcassets in Resources */,
 			);
@@ -314,6 +323,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				454C92DB27A0598400F7AB81 /* Base */,
+				455E2FAD27B19F1C005466A0 /* da */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -322,8 +332,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				454EE7C1201F8547002E6756 /* Base */,
+				455E2FAC27B19F1C005466A0 /* da */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		455E2FAB27B19E55005466A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455E2FAA27B19E55005466A0 /* en */,
+				455E2FAE27B19F1C005466A0 /* da */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		455E2FB127B1A94B005466A0 /* PreferencesWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455E2FB027B1A94B005466A0 /* Base */,
+				455E2FB327B1A951005466A0 /* da */,
+			);
+			name = PreferencesWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -463,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

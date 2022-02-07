@@ -24,11 +24,11 @@ class PreferencesWindow: NSWindowController, NSTableViewDelegate, NSTableViewDat
   
   override func windowDidLoad() {
     super.windowDidLoad()
-    NSApp.activate(ignoringOtherApps: true)
-    self.window?.orderFrontRegardless()
+    
     self.window?.center()
-    
-    
+    self.window?.orderFrontRegardless()
+    NSApp.activate(ignoringOtherApps: true)
+   
     tableView.delegate = self
     tableView.dataSource = self
     tableView.target = self

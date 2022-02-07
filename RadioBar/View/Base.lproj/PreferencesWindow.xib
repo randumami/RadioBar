@@ -26,11 +26,11 @@
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kRX-eo-Oau">
-                        <rect key="frame" x="18" y="335" width="126" height="18"/>
+                        <rect key="frame" x="18" y="335" width="175" height="18"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="124" id="A3r-9L-UU7"/>
+                            <constraint firstAttribute="width" constant="173" id="A3r-9L-UU7"/>
                         </constraints>
-                        <buttonCell key="cell" type="check" title="Load at startup" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="xwu-hX-BL3">
+                        <buttonCell key="cell" type="check" title="Load at startup     " bezelStyle="regularSquare" imagePosition="left" inset="2" id="xwu-hX-BL3">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                             <connections>
@@ -190,7 +190,7 @@ DQ
                         </customSpacing>
                     </stackView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffo-5e-icE">
-                        <rect key="frame" x="181" y="336" width="205" height="16"/>
+                        <rect key="frame" x="20" y="311" width="205" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" title="Play this channel when starting" id="9dZ-EB-l7H">
                             <font key="font" metaFont="system"/>
@@ -199,7 +199,7 @@ DQ
                         </textFieldCell>
                     </textField>
                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNB-aK-ggd">
-                        <rect key="frame" x="378" y="330" width="134" height="25"/>
+                        <rect key="frame" x="217" y="305" width="134" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="iNz-JX-rd8" id="YJc-BC-d1Y">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
