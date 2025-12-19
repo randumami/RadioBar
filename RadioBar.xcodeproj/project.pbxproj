@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4503F5962EF4B34100A23D85 /* Notification+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503F5952EF4B34100A23D85 /* Notification+Names.swift */; };
 		45065B502115A18E006587E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45065B4F2115A18E006587E4 /* README.md */; };
 		4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DA279C3FD5006DBD0B /* Constants.swift */; };
 		4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DF279C9D11006DBD0B /* RadioData.swift */; };
@@ -45,7 +44,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4503F5952EF4B34100A23D85 /* Notification+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Names.swift"; sourceTree = "<group>"; };
 		45065B4F2115A18E006587E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4520D1DA279C3FD5006DBD0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4520D1DF279C9D11006DBD0B /* RadioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioData.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				4520D1DF279C9D11006DBD0B /* RadioData.swift */,
 				457CC17A2776155600CA0532 /* Radio.swift */,
 				45D4C3272EE8A65E00A4C0E8 /* RadioStore.swift */,
-				4503F5952EF4B34100A23D85 /* Notification+Names.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,7 +316,6 @@
 				45D4C32A2EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift in Sources */,
 				457CC17F2776508500CA0532 /* RadioManager.swift in Sources */,
 				45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */,
-				4503F5962EF4B34100A23D85 /* Notification+Names.swift in Sources */,
 				4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */,
 				45991C31202ED0D000E84C37 /* StatusMenuController.swift in Sources */,
 				4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */,

@@ -29,5 +29,5 @@ final class RadioStore {
 
 extension Notification.Name {
     static let radiosDidChange = Notification.Name("radiosDidChange")
-    // nowPlayingDidUpdate is defined centrally in Notification+Names.swift and maps to "RadioMetadataUpdated" posted by Radio
+    static let nowPlayingDidUpdate = Notification.Name("nowPlayingDidUpdate")
 }
