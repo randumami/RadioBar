@@ -20,15 +20,13 @@ struct MyRadio: Codable, Equatable {
   
 }
 
-struct defaults {
-  
-  static var standardRadio  :String {
+struct Defaults {
+  static var standardRadio: String {
     get {
       UserDefaults.standard.string(forKey: "standardRadio") ?? "-"
     }
-    
     set {
-      UserDefaults.standard.setValue(newValue , forKey: "standardRadio")
+      UserDefaults.standard.set(newValue, forKey: "standardRadio")
     }
   }
 }

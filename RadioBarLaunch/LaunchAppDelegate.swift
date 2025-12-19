@@ -18,6 +18,8 @@ class LaunchAppDelegate: NSObject, NSApplicationDelegate {
   var logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: "LaunchAppDelegate")
 
 
+  // Kontrollerer om hovedappen allerede kører; hvis ikke, lokaliseres og åbnes hovedappen via bundle identifier.
+  // Sikrer at login-helper starter hovedappen ved login uden at åbne flere instanser og logger for fejlsøgning.
   func applicationDidFinishLaunching(_ aNotification: Notification) {
  let mainAppIdentifier = "net.systemit.RadioBar"
     
@@ -41,13 +43,7 @@ class LaunchAppDelegate: NSObject, NSApplicationDelegate {
                                              completionHandler: nil)
           
           logger.notice("efter NSWorkspace.shared.openApplication er kørt")
-          
-          
-//            var path = Bundle.main.bundlePath as NSString
-//            for _ in 1...4 {
-//                path = path.deletingLastPathComponent as NSString
-//            }
-//            NSWorkspace.shared.launchApplication(path as String)
+
         }
     
     
@@ -64,21 +60,3 @@ class LaunchAppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
-/*
- https://stackoverflow.com/questions/27505022/open-another-mac-app
- 
- guard let url = NSWorkspace.shared.urlForApplication(withBundleIdentifier: "com.apple.Terminal") else { return }
-
- let path = "/bin"
- let configuration = NSWorkspace.OpenConfiguration()
- configuration.arguments = [path]
- NSWorkspace.shared.openApplication(at: url,
-                                    configuration: configuration,
-                                    completionHandler: nil)
- 
- This is just one caveat, which might not affect too many: while launchApplication() accepted a path to an executable (e.g. "MyApp.app/Contents/MacOS/MyApp"), this will result in an error (lacking privileges) with openApplication(::). You have to supply the path to the app bundle ("MyApp.app") instead.
- 
- 
- 
- 
- */

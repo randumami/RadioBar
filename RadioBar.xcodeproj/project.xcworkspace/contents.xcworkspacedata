@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RadioBar.xcodeproj">
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:DefaultsShim.swift">
    </FileRef>
 </Workspace>

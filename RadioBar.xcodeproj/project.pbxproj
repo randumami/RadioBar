@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4503F5962EF4B34100A23D85 /* Notification+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503F5952EF4B34100A23D85 /* Notification+Names.swift */; };
 		45065B502115A18E006587E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45065B4F2115A18E006587E4 /* README.md */; };
 		4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DA279C3FD5006DBD0B /* Constants.swift */; };
 		4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DF279C9D11006DBD0B /* RadioData.swift */; };
@@ -24,6 +25,8 @@
 		45991C31202ED0D000E84C37 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45991C30202ED0D000E84C37 /* StatusMenuController.swift */; };
 		45B6058027A0A22300E7C891 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B6057F27A0A22300E7C891 /* ServiceManagement.framework */; platformFilter = maccatalyst; };
 		45CAC20C27A08F8B0080F1C4 /* RadioBarLaunch.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454C92D227A0598300F7AB81 /* RadioBarLaunch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45D4C3282EE8A65E00A4C0E8 /* RadioStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C3272EE8A65E00A4C0E8 /* RadioStore.swift */; };
+		45D4C32A2EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4C3292EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift */; };
 		45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */; };
 		45FCFC8227A4745200C2AD1E /* BBC.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45FCFC8127A4745200C2AD1E /* BBC.plist */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4503F5952EF4B34100A23D85 /* Notification+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Names.swift"; sourceTree = "<group>"; };
 		45065B4F2115A18E006587E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4520D1DA279C3FD5006DBD0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4520D1DF279C9D11006DBD0B /* RadioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioData.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		457CC17E2776508500CA0532 /* RadioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioManager.swift; sourceTree = "<group>"; };
 		45991C30202ED0D000E84C37 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		45B6057F27A0A22300E7C891 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		45D4C3272EE8A65E00A4C0E8 /* RadioStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStore.swift; sourceTree = "<group>"; };
+		45D4C3292EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+StandardRadio.swift"; sourceTree = "<group>"; };
 		45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
 		45FCFC8127A4745200C2AD1E /* BBC.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = BBC.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +103,8 @@
 				457CC17E2776508500CA0532 /* RadioManager.swift */,
 				4520D1DF279C9D11006DBD0B /* RadioData.swift */,
 				457CC17A2776155600CA0532 /* Radio.swift */,
+				45D4C3272EE8A65E00A4C0E8 /* RadioStore.swift */,
+				4503F5952EF4B34100A23D85 /* Notification+Names.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 			children = (
 				45991C30202ED0D000E84C37 /* StatusMenuController.swift */,
 				45F3EC6B202F2ADD0050E290 /* PreferencesWindow.swift */,
+				45D4C3292EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,8 +238,9 @@
 		454EE7B1201F8547002E6756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 2610;
 				ORGANIZATIONNAME = "Søren Randum";
 				TargetAttributes = {
 					454C92D127A0598300F7AB81 = {
@@ -306,13 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D4C32A2EE8AFE200A4C0E8 /* UserDefaults+StandardRadio.swift in Sources */,
 				457CC17F2776508500CA0532 /* RadioManager.swift in Sources */,
 				45F3EC6C202F2ADD0050E290 /* PreferencesWindow.swift in Sources */,
+				4503F5962EF4B34100A23D85 /* Notification+Names.swift in Sources */,
 				4520D1E0279C9D11006DBD0B /* RadioData.swift in Sources */,
 				45991C31202ED0D000E84C37 /* StatusMenuController.swift in Sources */,
 				4520D1DB279C3FD5006DBD0B /* Constants.swift in Sources */,
 				454EE7BD201F8547002E6756 /* AppDelegate.swift in Sources */,
 				457CC17B2776155600CA0532 /* Radio.swift in Sources */,
+				45D4C3282EE8A65E00A4C0E8 /* RadioStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,11 +382,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = GSN2VK6597;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RadioBarLaunch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Søren Randum. All rights reserved.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -382,7 +398,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBarLaunch;
@@ -404,11 +420,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = GSN2VK6597;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RadioBarLaunch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Søren Randum. All rights reserved.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -417,7 +436,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBarLaunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,9 +482,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GSN2VK6597;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -484,6 +506,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -524,9 +547,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GSN2VK6597;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -538,6 +564,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -551,15 +578,19 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = GSN2VK6597;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				INFOPLIST_FILE = RadioBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -575,15 +606,19 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = GSN2VK6597;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				INFOPLIST_FILE = RadioBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.systemit.RadioBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

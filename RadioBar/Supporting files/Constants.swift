@@ -17,6 +17,6 @@ struct K {
   static let nameCell = "radioName"
   static let addressCell = "radioURL"
   static let helperBundleName = "net.systemit.RadioBarLaunch"
-  static let aboutMessageText = NSLocalizedString("I hope you will enjoy listening to radio on this app RadioBar is copyright ©Systemit", comment: "")
+  static let aboutMessageText = NSLocalizedString("I hope you will enjoy listening to radio on this app, RadioBar is copyright ©Systemit", comment: "")
   
 }
